@@ -32,8 +32,6 @@ on the command line.
 
 ***********************************************************************/
 
-function printOuterNumsFirst(nums) {
-  // Your code here
   function printOuterNumsFirst(nums) {
     if (nums.length === 1) return;
 
@@ -52,7 +50,6 @@ function printOuterNumsFirst(nums) {
     // Make a recursive call with the modified nums array.
     printOuterNumsFirst(nums);
   }
-}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
